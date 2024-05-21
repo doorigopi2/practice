@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>htmlayout</title>
+    </head>
+    <body>
+
+    <style>
+        *{box-sizing: border-box;}
+        header{
+            background-color: rgb(141, 245, 245);
+            padding: 2px;
+            color: white;
+            text-align: center;
+            font-size: 25PX;
+        }
+        nav{background-color: rgb(240, 235, 235);
+            padding: 20px;
+            width: 30%;
+            height: 300px;
+            float: left;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        article{
+           float: left;
+            background-color: rgb(212, 212, 182);
+            padding: 20px; ;
+           
+            width: 70%;;
+            height: 300px;
+        } 
+        footer {
+    background-color: rgb(105, 174, 197);
+    padding: 10px;
+   
+    color: white;
+    text-align: center;
+
+  }
+  section::after {
+    content: "";
+    display: table;
+    clear: both;}
+    
+
+    </style>
+    <header>
+        <h1>Hari</h1></header>
+      <section> <nav>
+            <ul >
+          <li><a href="#">home</a></li>
+         <li><a href="#">service</a></li>
+         <li><a href="#">about us</a></li></ul>
+        </nav>
+        <article>
+            <h2>Home</h2>
+            <p>This is a home page</p>
+        </article></section> 
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+</body>
+</html>
