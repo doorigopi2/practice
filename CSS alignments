@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>text alignments</title>
+    <style>
+        h1{text-align: center;
+            text-decoration-line: underline;
+        text-decoration-style: wavy;
+        text-decoration-color: red;
+    }
+    </style>
+</head>
+<body>
+<h1>text alignment</h1>
+<p class="in"><img src="https://th.bing.com/th/id/OIP.YPM8IZ98U35wLNzG0a73CgHaHa?w=162&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="instagram" width="40px">
+    The Instagram glyph icon is one of our most globally recognized assets.<br>
+     The primary use of the glyph is to promote your organization's presence<br>
+      on Instagram. Only use glyph files available from this site.</p>
+      <h2>text alin last</h2>
+      <p class="ins"><img src="https://th.bing.com/th/id/OIP.YPM8IZ98U35wLNzG0a73CgHaHa?w=162&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="instagram" width="40px">
+        The Instagram glyph icon is one of our most globally recognized assets.<br>
+         The primary use of the glyph is to promote your organization's presence<br>
+          on Instagram. Only use glyph files available from this site.</p>
+          <p class="i"><img src="https://th.bing.com/th/id/OIP.YPM8IZ98U35wLNzG0a73CgHaHa?w=162&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="instagram" width="40px">
+            The Instagram glyph icon is one of our most globally recognized assets.<br>
+             The primary use of the glyph is to promote your organization's presence<br>
+              on Instagram. Only use glyph files available from this site.</p>
+              <p class="inst"><img src="https://th.bing.com/th/id/OIP.YPM8IZ98U35wLNzG0a73CgHaHa?w=162&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="instagram" width="40px">
+                The Instagram glyph icon is one of our most globally recognized assets.<br>
+                 The primary use of the glyph is to promote your organization's presence<br>
+                  on Instagram. Only use glyph files available from this site.</p>
+</body>
+</html>
