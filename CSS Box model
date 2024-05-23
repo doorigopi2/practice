@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        p{
+            background-color:green;
+            width: 100px;
+            padding: 40px;
+            outline: 20px solid gold;
+            color: white;
+            outline-offset: 10px;
+            text-align: center;
+            margin: 90px  550px 89px;
+
+        }
+        h2{text-align: center;
+            text-decoration: underline;
+            text-decoration-style: wavy;
+            text-decoration-color: blue;    
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Box model</h2>
+    <p>
+        position<br>
+        margin<br>
+        padding<br>
+        content
+    </p>
+</body>
+</html
