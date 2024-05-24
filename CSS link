@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS link</title>
+    <style>
+        a{
+            text-decoration: none;
+            background-color: red;
+            padding: 20px;
+            margin: 10px;
+            color: azure; 
+        }
+
+            a:hover{
+                background-color: gray;
+            }
+    </style>
+
+</head>
+<body>
+    <a href="#">Home Page
+</a>
+    
+    
+</body>
+</html>
