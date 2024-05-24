@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web site</title>
+    <head>
+    <style>
+        *{
+            position: 0;
+            padding: 0;
+        }
+        ul{
+            display: inline flex;
+            list-style: none;
+        color:rgb(233, 176, 31); 
+        font-size: 15px; 
+        
+        }
+        ul li{
+            width: 80px;
+            margin: 10px;
+            padding: 15px;
+            
+           
+        }
+        nav{
+            background-color: rgb(104, 112, 112);
+            color: black;
+            font-weight: 30px;
+            font-size: 15px;
+        }
+       li a{
+            color: black;
+            text-decoration: none;
+        }
+        section{
+            text-align: center;
+            font-size: 20px;
+
+        }
+        section h1{
+            font-size: 30px;
+            font-weight: 400;
+            font-size: 50px;
+        }
+        section{
+            background-image: url(https://images.hdqwalls.com/download/baltic-sea-sunset-1b-1920x1080.jpg);width: 100%px;
+            height: auto;
+            padding: 250px;
+            background-repeat: no-repeat;
+            color: rgb(208, 224, 28);
+            margin:auto;
+        }
+        footer{
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 70px;
+            
+        }
+        </style>
+            
+
+</head>
+<body>
+    <div class="ho"> <nav> 
+        <ul>
+            <li> ABC Agecy</li>
+            <li> <a href="#">Welcome</a> </li>
+            <li> <a href="#">About</a> </li>
+            <li> <a href="#">Pracing</a> </li>
+            <li> <a href="#">Team</a> </li>
+            <li> <a href="#">Contact</a> </li>
+        </ul>
+       </nav>
+    </div>
+  <section>
+
+   <h1> Make It Stand Out</h1>
+   <p>A collaborative platform for all your needs. Learn how to optimize your team's output to maximize your work.<br>
+
+    Using strategies with proven results, we can help boost your business and branding.<br>
+    
+    Begin your journey today and bring your ideas to life!</p>
+  </section>
+  <footer><h3>ABC Agence</h3>
+    <p>888 Griffiths Way, Mainland ML 12345
+
+        (987) 654-3210
+        
+        info@yoursite.com</p>
+    <p>Copy rights 2022 ABC Agency. All Rights Reserved.</p>
+  </footer>
+  
+</body>
+</html>
