@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TEXT SHADOW</title>
+    <style>
+        h1{
+           text-shadow: 1px 3px 4px  rgb(196, 29, 177);
+           text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>ABC TECNOLOGIES</h1>
+</body>
+</html>
