@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>fontS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+        </style>
+    <style>
+        h1{
+            font-family: "Reddit Mono", monospace;
+            font-size: 100px;
+            font-weight: 100;
+            font-style: italic;
+            text-align: center;
+        }
+        body{
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Azim Premji
+    </h1>
+    <code>
+        Azim Hashim Premji is an Indian businessman<br>
+        and philanthropist, who was the chairman of Wipro<br>
+         Limited. Premji remains a non-executive member of<br>
+          the board and founder chairman. He is informally known<br>
+           as the Czar of the Indian IT Industry.
+
+    </code>
+    
+</body>
+</html>
