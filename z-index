@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>z-index</title>
+    <style>
+        .one{
+            position: relative;
+        }
+       .two{
+      float: right;
+        height:10px;
+        position:absolute;
+        width: 200px;
+        z-index:3;
+       top: 200px;
+        right:300px;
+        color: rgb(57, 211, 33);
+       }
+    </style>
+</head>
+<body>
+    <div class="0ne">
+    <h3>z-index</h3>
+    <img src="https://img.freepik.com/free-photo/fresh-autumn-leaves-reveal-vibrant-organic-pattern-generated-by-ai_188544-15037.jpg?size=626&ext=jpg&ga=GA1.2.298313358.1716789814&semt=ais_user" alt="boy" height="250px" width="250px">
+</div>
+<div class="two">Photo and video competitions designed to inspire you to get out there, shoot, and share your work with the world. You might even win prizes while you do.
+
+</div>
+</body>
+</html>
