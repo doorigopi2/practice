@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>clear</title>
+    <style>
+        .one{
+            background-color: rgb(13, 194, 161);
+            width: 70px;
+            height: 60px;
+            padding: 10px;
+            text-align: center;
+            border: solid red;
+            margin: 30px;
+            float: left;
+        }
+       .two{border:solid 5px;
+        margin: 10px;
+        padding: 40px;
+        background-color: blanchedalmond;
+        
+       }
+       .three{
+        height: 20px;
+        padding: 20px;
+        border: solid gray;
+        width: 30px;
+        float: left;
+       }
+       .four{
+        margin: 40px;
+        border: solid rebeccapurple;
+        padding: 50px;
+        clear: left;
+    background-color: antiquewhite;}
+    </style>
+</head>
+<body>
+    <h3>without</h3>
+    <div class="one">
+    <h3>clear</h3></div>
+    <br>
+    <br>
+<div class="two">Photo and video competitions designed to inspire you to get out there, shoot, and share your work with the world. You might even win prizes while you do.
+</div><br>
+<h3>with</h3>
+<div class="three">clear</div>
+<div class="four">
+    Now more than ever, people around the world need imagery supporting peace and demanding the end of an armed conflic
+</div>
+</body>
+</html>
