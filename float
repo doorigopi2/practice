@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>float</title>
+    <style>
+        img{
+            float:right;
+        }
+    </style>
+</head>
+<body>
+    <h3>Float</h3>
+    <img src="https://img.freepik.com/free-photo/fresh-autumn-leaves-reveal-vibrant-organic-pattern-generated-by-ai_188544-15037.jpg?size=626&ext=jpg&ga=GA1.2.298313358.1716789814&semt=ais_user" alt="boy" height="250px" width="250px"> 
+</body>
+</html>
