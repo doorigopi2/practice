@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .ht{
+            background-color: rgb(142, 69, 69);
+       color: white;
+       padding: 10px;
+        } 
+        
+        .types{
+            background-color: black;
+            padding: 46px;
+            width: 70px;
+            min-height: 120px;
+            height: 80px;
+            display: none;
+            z-index: 1;       
+    }
+            .types a{
+              
+                line-height: 30px;
+               text-decoration: none;
+               color: white;
+               cursor: pointer;
+              
+            }
+            .ht:hover{background-color: rgb(206, 6, 6);}
+            
+           .types :hover{
+                background-color: red;
+            }
+            .abs:hover .types{
+                display: block;
+            }
+
+    </style>
+</head>
+<body>
+    <h1> Dropdown</h1>
+<div class="abs">
+    <button class="ht">languages</button>
+    <div class="types">
+        <a href="#">Telugu</a>
+        <a href="#">Hindi</a>
+        <a href="#">English</a>
+        <a href="#">Tamil</a>
+    </div>
+    
+</body>
+</html>
