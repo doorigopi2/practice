@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+      div~
+      p{
+            background-color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>combinators</h1>
+    <h2>General sibling selectors</h2>
+    <p>genral selectors</p>
+    <p>genral selectors</p>
+    <div>
+        <p>paragraph1</p>
+        <p>paragraph2</p>
+        <p>paragraph3</p>
+        <p>paragraph4</p>
+    
+    <section>paragraph5</section>
+    <p>paragraph</p></div>
+    <p>paragraphK</p>
+    <p>paragraph4</p>
+    <div>
+        <p>paragraph1</p>
+        <p>paragraph2</p>
+        <p>paragraph3</p>
+        <p>paragraph4</p>
+    </div>
+    
+</body>
+</html>
