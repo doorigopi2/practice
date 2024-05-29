@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pseudo</title>
+    <style> h1::after{
+        content: url(https://www.bing.com/th?id=OIP.PYipJ_hSncugM2SwnZitvgHaEK&w=173&h=100&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2);
+    }
+    
+    </style>
+   
+</head>
+<body>
+
+    <h1>after</h1><br>
+    <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph.</p>
+</body>
+</html>
