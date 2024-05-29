@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gradients</title>
+    <style>
+div{
+    background-color:green;
+   border-radius: 180px;
+    width: 200px;
+    height: 200px;
+    border: solid 5px rgb(58, 184, 206)    
+}
+#abc{
+    background:linear-gradient(to bottom left,rgb(210, 31, 31),blue,orange);
+   
+}
+#ab{
+    background:repeating-linear-gradient(to bottom right,gold,pink,skyblue) ;
+}
+
+    </style>
+</head>
+<body>
+<h1>Gradients:</h1>
+<div>
+</div>
+<h1>Linear gradient</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="abc">Linear</div>
+</div>
+<h1>Linear gradient</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="ab">Linear</div>    
+</body>
+</html>
