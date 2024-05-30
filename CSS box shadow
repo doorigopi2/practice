@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box shadow</title>
+    <style>
+        div{
+            background-color: #3fff95;
+            color: azure;
+            height: 150px;
+            width: 150px;
+            margin: 100px;
+            box-shadow: 10px 5px 1px rgb(100, 51, 51),20px 30px 1px yellow,40px 40px 1px pink;
+        }
+       
+        h1{
+            text-shadow: 10px 8px 3px rgb(161, 67, 67);
+        }
+    </style>
+</head>
+<body>
+    <h1>box shodow:</h1>
+    <div class="box">box shadow</div>
+</body>
+</html>
