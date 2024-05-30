@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gradients</title>
+    <style>
+div{
+    background-color:green;
+   border-radius: 180px;
+    width: 200px;
+    height: 200px;
+    border: solid 5px rgb(58, 184, 206);
+    
+}
+ #abc{
+    background:conic-gradient(rgb(19, 10, 10),rgb(25, 25, 234),rgb(18, 216, 94),rgb(58, 182, 231));
+   font-size: 20px;
+    font-weight: 100px;}
+    </style>
+</head>
+<body>
+<h1>Gradients:</h1>
+
+<h1>conic gradient</h1>
+<br>
+<br>
+<br>
+<div id="abc">conic</div>
+</div>    
+</body>
+</html>
