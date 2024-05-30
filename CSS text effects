@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>text effects</title>
+    <style>
+div{
+    background-color:green;
+    width: 200px;
+    height: 200px;
+    border: solid 5px rgb(58, 184, 206);
+    text-overflow:;
+    overflow: hidden;
+    word-wrap:break-word;
+    word-break:break-all;
+    writing-mode: horizontal-tb;
+}
+h1{
+writing-mode: vertical-lr;
+}
+ #abc{
+    background:conic-gradient(rgb(19, 10, 10),rgb(25, 25, 234),rgb(18, 216, 94),rgb(58, 182, 231));
+   font-size: 20px;
+    font-weight: 100px;}
+    </style>
+</head>
+<body>
+<h1>text effects:</h1>
+<br>
+<br>
+<br>
+<div id="abc">Skype is a [[][][[[][]][[]][[]]]free video call app that allows you to stay in touch with friends and family. It is available for desktop, mobile, and tablet devices on Windows, Mac and Linux platforms...Skype is not a replacement for your telephone and has limited emergency calling capabilities depending on your country. Learn more about emergency calling supporting. Keep in</div>
+</div>    
+</body>
+</html>
