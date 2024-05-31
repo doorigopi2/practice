@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+
+.flex4{display: flex;
+    padding: 3px;
+    background-color: rgb(160, 106, 36);
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: space-around;
+    
+  
+}
+.flex4>div{
+    height: 80px;
+    width: 80px;
+    border: solid 2px;
+    background-color: blueviolet;}
+    
+
+    .flex2{display: flex;
+    padding: 3px;
+    background-color: rgb(160, 106, 36);
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+  
+}
+.flex2>div{
+    height: 80px;
+    width: 80px;
+    border: solid 2px;
+    background-color: blueviolet;
+}
+.flex3{display: flex;
+    padding: 3px;
+    background-color: rgb(160, 106, 36);
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+
+  
+}
+.flex3>div{
+    height: 80px;
+    width: 80px;
+    border: solid 2px;
+    background-color: blueviolet;
+}
+
+
+    </style>
+</head>
+<body>
+    
+                
+             <h2>justify-content: space-around</h2>
+
+                <div class="flex4">
+                    <div >one</div>
+                    <div>two</div>
+                    <div>three</div>
+                    <div>four</div>
+                    <div>two</div>
+                    <div>three</div>
+                    </div>
+                    <h2>justify-content: space-between</h2>
+
+                    <div class="flex2">
+                        <div >one</div>
+                        <div>two</div>
+                        <div>three</div>
+                       
+                        </div>
+                        <h2>justify-content: space-evenly</h2>
+
+                        <div class="flex3">
+                            <div >one</div>
+                            <div>two</div>
+                            <div>three</div>
+                            <div>four</div>
+                            <div>two</div>
+                            <div>three</div>
+                            </div>
+                  
+</body>
+</html>
