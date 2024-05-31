@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+.flex{display: flex;
+    flex: row;
+    background-color: antiquewhite;
+    flex-direction: row;
+}
+.flex>div{
+    height: 80px;
+    width: 80px;
+    border: solid 1px;
+    background-color: blueviolet;}
+    
+    
+    
+    .flex1{display: flex;
+    flex: row;
+    background-color: rgb(160, 106, 36);
+    flex-direction: column;
+}
+.flex1>div{
+    height: 80px;
+    width: 80px;
+    border: solid 1px;
+    background-color: blueviolet;
+}
+.flex2{display: flex;
+    flex: row;
+    background-color: rgb(160, 106, 36);
+    flex-direction:row-reverse;
+}
+.flex2>div{
+    height: 80px;
+    width: 80px;
+    border: solid 1px;
+    background-color: blueviolet;
+}   
+
+.flex4{display: flex;
+    flex: row;
+    background-color: rgb(160, 106, 36);
+    flex-direction: column-reverse;
+}
+.flex4>div{
+    height: 80px;
+    width: 80px;
+    border: solid 1px;
+    background-color: blueviolet;
+}
+
+
+    </style>
+</head>
+<body>
+    <h2>flex-direction row</h2>
+    <div class="flex">
+        <div >one</div>
+        <div>two</div>
+        <div>three</div>
+        <div>four</div>
+    </div>
+
+
+        <h2>flex-direction column</h2>
+        <div class="flex1">
+            <div >one</div>
+            <div>two</div>
+            <div>three</div>
+            <div>four</div></div>
+
+            <h2>flex-direction row-reverse</h2>
+
+            <div class="flex2">
+                <div >one</div>
+                <div>two</div>
+                <div>three</div>
+                <div>four</div></div>
+                
+             <h2>flex-direction column-reverse</h2>
+
+                <div class="flex4">
+                    <div >one</div>
+                    <div>two</div>
+                    <div>three</div>
+                    <div>four</div></div>
+</body>
+</html>
