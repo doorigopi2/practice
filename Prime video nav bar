@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIME NAV BAR</title>
+    <style>
+    *{margin: 0%;
+        font-family: Arial, sans-serif;
+        justify-content: space-around; 
+    }
+   
+    header {
+        background-color: #0b0d0f;
+        padding: 20px;
+        display:flex;
+        width: 100%;
+        align-items: center;
+        
+    }
+    
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       border-radius: 3px;
+    }
+    .nav-item img{
+        width: 20px;
+        border-radius: 50%;
+    }
+     
+    .dropdown li a {
+        color: black;
+        padding: 10px 20px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown li a:hover {
+        background-color: #a77171;
+    }
+    
+    .nav-item:hover .dropdown {
+        display: block;
+    }
+    
+    .logo {
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+      
+        margin-bottom: 14px;
+    }
+    
+    .nav-links {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .nav-item {
+        position: relative;
+    
+    }
+    
+    .nav-item > a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        display: block;
+    }
+    
+    .nav-item > a:hover {
+        background-color: #37475a;
+    }
+    
+    .dropdown {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: white;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+         z-index: 1;
+        min-width: 200px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .dropdown li {
+        border-bottom: 1px solid #eaeaea;
+    }
+    
+    </style>
+</head>
+<body><header>
+    <nav class="navbar">
+        <a href="#" class="logo">Prime video</a>
+        <nav class="nav-links">
+            <div class="nav-item">
+                
+                <a href="#">Home</a>
+                <ul class="dropdown">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">TV Shows</a></li>
+                   
+                </ul>
+            </div>
+            <div class="nav-item">
+                <a href="#">Store</a>
+                <ul class="dropdown">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Rent</a></li>
+                    <li><a href="#">Channels</a></li>
+                   
+                </ul>
+            </div>
+            <div class="nav-item">
+                <a href="#">Live Tv</a>
+            </div> 
+            <div class="nav-item">
+                <a href="#">Categories</a>
+                <ul class="dropdown">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">anime</a></li>
+                    <li><a href="#">comidy</a></li>
+                    <li><a href="#">horror</a></li>
+                    <li><a href="#">documentary</a></li>
+                    <li><a href="#">romance</a></li>
+                    <li><a href="#">Kids</a></li>
+                </ul>
+            </div>
+            <div class="nav-item img"><a href="search box"><img src="https://img.freepik.com/free-photo/search-icon-front-side-white-background_187299-40205.jpg" height="20px" alt="search">
+            </a></div>
+            <div class="nav-item">
+                <a href="#"> Try for free</a>
+            </div>
+            <div class="nav-item">
+                <a href="#">EN</a>
+                <ul class="dropdown">
+                    <li><a href="#">Telugu</a></li>
+                    <li><a href="#">Hidi</a></li>
+                    <li><a href="#">Tamil</a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Malayam</a></li>
+                </ul>
+            </div>
+<div class="profile"><a href="profile"><img src="https://img.freepik.com/free-vector/user-circles-set_78370-4704.jpg?size=626&ext=jpg&ga=GA1.1.298313358.1716789814&semt=ais_user"height=30px alt="profile"></a></div>
+</div>
+    </nav>
+</header>
+    
+</body>
+</html>
