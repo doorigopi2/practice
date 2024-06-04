@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+<style>
+    body{
+        background-image:url(https://colorlib.com/wp/wp-content/uploads/sites/2/lms-wordpress-themes-1.jpg) ;
+        background-repeat: no-repeat;
+        height: 3000px;
+        width: 300px;
+        
+        
+    }
+    h1{
+      color: pink;
+
+    }
+    p{
+        color: antiquewhite;
+        background-color: brown;
+        padding: 20px;
+        width: 500px;
+        position: sticky;
+        height: 30px;
+        top: 100px;
+    } 
+</style>
+</head>
+<body>
+    <h1>position </h1>
+    <P>position sticky </P>
+</body>
+</html>
