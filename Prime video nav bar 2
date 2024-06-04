@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="prime v.css">
+  
+   
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+           
+             
+                <ul class="navlinks">
+                 <li class="links"><p>Prime video</p></li>
+                  <li class="links" > <a href="#">Home</a>
+                <ul class="dropdown">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">movies</a></li>
+                    <li><a href="#">Tv shows</a></li>
+                </ul>
+                
+                  </li>
+                  <li class="links" > <a href="#">Store</a>
+                    <ul class="dropdown">
+                        <li><a href="#">All</a></li>
+                        <li><a href="#">Rent</a></li>
+                        <li><a href="#">Channel</a></li>
+                    </ul>
+                    <li class="links" > <a href="#">Live Tv</a></li>
+
+                        <li class="links" > <a href="#">Categories</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Horror</a></li>
+                                <li><a href="#">comedy</a></li>
+                                <li><a href="#">anime</a></li>
+                                <li><a href="#">drama</a></li>
+                                <li><a href="#">comedy</a></li>
+                                <li><a href="#">fantasy</a></li>
+                                <li><a href="#">kids</a></li>
+                                <li><a href="#">romance</a></li>
+                                <li><a href="#">science</a></li>
+ 
+                            </ul>
+                            <li class="links"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2-KnEFXk9XQDENBtqNM7KWs445vaL43ogtg&s" alt="saerch" height="20px"></a>
+                                
+                                   
+                                        
+                                    <input type="text" id="text" placeholder="search">
+                               </ul>
+                            </li>
+                            
+                        </ul>
+                        <ul class="navlinks">
+                            <li class="links">   <a href="#" >Try For Free</a></li>
+                        </ul>  <ul class="navlinks">
+                            <li class="links" > <a href="#">EN</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">English</a></li>
+                                    <li><a href="#">Telugu</a></li>
+                                    <li><a href="#">Hindi</a></li>
+                                    <li><a href="#">Tamil</a></li>
+                                    <li><a href="#">Urdu</a></li>
+                                    <li><a href="#">Kanada</a></li>
+                                   
+     
+                                </ul>
+                            </li>
+                            </ul>
+
+                       
+                        <ul class="navlinks">
+                            <li class="links" > <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMIYPQpAHWfspO8qrIdSO7Pkx-JpkIU03WVA&s" alt="logo" height="30px" width="30px"></a>
+                          <ul class="dropdown">
+                              <li><a href="#">Sign</a></li>
+                              <li><a href="#">Help</a></li>
+                              <li><a href="#">Watch any way</a></li>
+                          </ul>
+                        
+                       
+                    </ul>
+                     </li>
+
+        </nav>
+    </header>
+    
+</body>
+</html>
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&display=swap');
+*{margin: 0;
+padding: 0%;}
+body{
+
+    background-color: rgb(99, 103, 193);
+}
+
+.navbar{
+    background-color: black;
+    height: 80px;
+    text-align: start;
+    border: 2px solid rebeccapurple;
+    border-radius: 10px;
+   
+ 
+}
+.navlinks .links{
+   float: left;
+   padding: 30px;
+   line-height: 10px;
+   cursor: pointer;
+ 
+   
+   height: 10px;
+ 
+}
+p{
+    color:white;
+    font-size: 30px;
+}
+.links{
+    display:block;
+    color: white;
+  
+}
+
+.dropdown  li a{
+    text-decoration: none;
+    display:none;
+    padding: 15px;
+text-align: center;
+    
+    position: relative;
+    top: 30px;
+  right: 15px;
+  background-color: black;
+
+}
+.links img{
+position: relative;
+top: 0px;
+left: 20px;
+
+
+}
+
+ul li {
+   list-style: none;
+
+    
+}
+.links a{text-decoration: none; 
+    color: white;
+   
+   
+}
+.dropdown li a:hover{
+    background-color: black;
+    color: blue;
+}
+.links:hover .dropdown  li a{
+    cursor: pointer;
+    display:block ;
+}
+.links input {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 500px;
+    cursor: pointer;
+}
+
+.links:hover.links input {
+    display: block;
+    cursor: pointer;
+}
