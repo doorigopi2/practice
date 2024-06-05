@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    body{
+        background-image: url(https://images.wallpaperscraft.com/image/single/books_table_lamp_113765_300x188.jpg);
+        background-repeat: no-repeat;
+        background-size: 1300px 900px;
+    }
+    .navbar{
+        background-color: rgba(0, 0, 0, 0.63);
+        height: 110px;
+        
+        
+    }
+    .links{
+        float: left;
+        padding: 50px;
+        list-style: none;
+        color: white;
+    }
+    p{ color: rgba(205, 147, 147, 0.836);
+    font-size: 40PX;
+line-height: 10PX;}
+
+
+
+
+   </style>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-items">
+                <li class="links"><p>KS</p></li>
+                <li class="links"><a>HOME</a></li>
+                <li class="links"><a>SERVICES</a></li>
+                <li class="links"><a>WORK</a></li>
+                <li class="links"><a>BLOG</a></li>
+                <li class="links"><a>CONTACT</a></li>
+                <li class="links"><a><img src="https://th.bing.com/th?q=LinkedIn+Logo+in+Black+PNG&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.5&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="logo" height="25px"></a></li>
+                <li class="links"><a><img src="https://th.bing.com/th?id=OIP.IOlJ2wJrAUpUh6T1la8kxAHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="logo" height="25px"> </a></li>
+
+
+            </ul>
+        </nav>
+        
+    </header>
+    
+</body>
+</html>
