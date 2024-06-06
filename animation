@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        div{
+            height: 90px;
+            width: 90px;
+            background-color: blueviolet;
+            animation-name: krishna;
+            animation-duration: 5s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: 5;
+            position: relative;
+            
+
+        }
+        @keyframes krishna{
+            from{left: 0px;}
+            to{
+                left: 300px;
+            }
+
+
+        }
+        #two{
+            animation-timing-function: ease-in;
+        }   
+            
+        
+        #three{
+           animation-timing-function: ease-out;
+        
+        }
+        #FOUR{
+            animation-timing-function: ease-in-out;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>animation</h1>
+    <div id="one">
+        
+    </div>
+    <div id="two">
+        <h3>ease-in</h3>
+    </div>
+</div>
+<div id="three">
+    <h3>ease-out</h3>
+</div>
+<div id="FOUR">
+    <h3>ease- in-out</h3>
+</div>
+
+
+    
+</body>
+</html>
