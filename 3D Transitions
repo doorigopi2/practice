@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 90px;
+            width: 90px;
+            background-color: blueviolet;
+            transition: width 3s;
+        }
+        #two{
+            transition-timing-function: ease-in;
+        }
+        #one:hover{
+            width: 300px;
+        }  #two:hover{
+            width: 300px;
+        }
+        #three{
+            transition-timing-function: ease-out;
+        }#three:hover{
+            width: 300px;
+        }
+        #FOUR{
+            transition-timing-function: ease-out;
+        }#FOUR:hover{
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>3D Transitions</h1>
+    <div id="one">
+        
+    </div>
+    <div id="two">
+        <h3>ease-in</h3>
+    </div>
+</div>
+<div id="three">
+    <h3>ease-out</h3>
+</div>
+<div id="FOUR">
+    <h3>ease-now</h3>
+</div>
+
+
+    
+</body>
+</html>
