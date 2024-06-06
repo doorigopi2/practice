@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D transforms</title>
+    <style>
+        div{
+            background-color: rgba(165, 42, 42, 0.573);
+            width: 300px;
+            height: 300px;
+        }
+        #translate{
+           transform: translate(400px,50px)
+        }
+        #rotate{
+            transform: rotate(30px,60px);
+        }
+        #scaleX{
+
+            transform: scale(1,2);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>
+    2D transform:
+    </h1>
+    <div  id="translate">
+        <h2>
+            translate
+        </h2>
+
+        
+    </div>
+
+    <div  id="rotate">
+
+        <h2>
+            rotate
+        </h2>
+    </div>
+    <div  id="scaleX">
+
+        <h2>
+            scaleX
+        </h2>
+    </div>
+
+    
+</body>
+</html>
