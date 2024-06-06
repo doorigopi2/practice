@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRISHNA'S</title>
+    <style>
+
+    *{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+   background-image: url(https://media.istockphoto.com/id/1181026903/photo/closeup-man-hands-using-computer-laptop.webp?b=1&s=612x612&w=0&k=20&c=tHImvbP1oK7hEENBMfoHfiW9e4ENKgK7DySVY5hIzzI=);
+
+   background-repeat: no-repeat;
+   background-size: 100% auto;
+   
+}
+header{
+    height: 20px;
+    width: 1000px;
+    padding: 12px;
+}
+.navbar{
+    height: 70px;
+    width: 1250PX;
+    background-color: rgba(0, 0, 0, 0.482);
+    
+    border-radius: 5px;
+    position: fixed;
+}
+.links{
+    float: left;
+    padding: 30px;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    display: block;
+   
+}
+h1{
+    color: rgb(242, 131, 19);
+   font-size: 30px;
+   font-weight: 20px;
+   line-height: 10px;
+    
+}
+.dropdown li a:hover{
+   color: rgb(13, 9, 16);
+    background-color: rgb(46, 107, 181);
+    cursor: pointer;
+    background: red;
+}
+ul li a{
+    text-decoration: none;
+    color: white; 
+}
+.dropdown {
+display: none;
+    text-decoration: none;
+    list-style: none;
+    line-height: 40px;
+    position: absolute;
+    top: 70px;
+    background-color: black;
+}
+.links:hover .dropdown{
+    display: block;
+}
+section article .h{
+    font-size: 25px;
+    padding: 20px;
+    color: rgb(236, 229, 229);
+    text-align: center;
+    position: absolute;
+    top: 220px;
+    right: 740px;
+}
+section article .h7{
+    
+    color: rgb(242, 234, 234);
+    text-align: center;
+    position: absolute;
+    top: 260px;
+    right: 570px;
+    font-size: 80px;
+}
+section article .h2{
+    
+    color: rgb(242, 234, 234);
+    text-align: center;
+    position: absolute;
+    top: 310px;
+    right: 870px;
+    font-size: 80px;
+}
+section article .h2 button{
+    color: rgb(23, 21, 17);
+    background-color: rgb(234, 194, 15);
+    padding: 10px;
+    width: 150px;
+}
+.h2 button:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+footer{
+height: 200px;
+width: 1270px;
+background-color: black;
+position: absolute;
+top: 840px;
+color: rgb(242, 131, 19);
+text-align: center;
+}
+h3{
+    position: absolute;
+    top:10px ;
+    left: 590px;
+    font-size: 20px;
+    
+}
+.fo{
+    font-size: 15px;
+    text-align: center;
+    padding: 30px; 
+    color: white;
+    position: relative;
+    top: 20px;
+}
+    </style>
+</head>
+<body>
+   <header>
+    <nav class="navbar">
+        <ul class="nav-items">
+            <li class="links"><h1>KRISHNA'S</h1></li>
+            <li class="links"><a href="#">HOME</a>
+            <ul class="dropdown">
+                <li><a href="#">ALL</a></li>
+                <li><a href="#">INF</a></li></ul>
+
+                <li class="links"><a href="#">COURCES</a>
+                    <ul class="dropdown">
+                        <li><a href="#">JAVA</a></li>
+                        <li><a href="#">PHYTHON</a></li>
+                        <li><a href="#">.NET</a></li>
+                        <li><a href="#">SQL</a></li>
+                        <li><a href="#">FICO</a></li>
+
+                    </ul>
+                    <li class="links"><a href="#">FEATURE</a></li>
+                    <li class="links"><a href="#">EVENTS</a></li>
+                    <li class="links"><a href="#">BLOG</a>
+                        <li class="links"><a href="#">CONTACT</a></li>
+                        <li class="links"><a href="#">TESTING</a></li>
+                        <li class="links"><a href="#">SHOP</a></li>
+
+            </ul></li>
+        </ul>
+    </nav>
+   </header>
+   <section>
+<article>
+ <p class="h">THE BEST THEME FOR</p>
+ <P class="h7">EDUCATION</P>
+ <p class="h2"><button>BUY NOW</button></p>
+
+</article>
+   </section>
+   <footer>
+    <div class="footer">
+        <h3>KRISHNA'S</h3>
+    <p class="fo">Copyright © 2004-2024Website.com<br>
+         Solutions Inc. All Rights Reserved. All other<br>
+          trademarks and copyrights are the property of their <br>
+          respective holders.
+</p></div>
+   </footer>
+
+</body>
+</html>
