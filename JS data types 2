@@ -1,0 +1,6 @@
+var info=[{name:`krishna`,
+age:23,
+add:`kadapa`,
+phno:8790462097}];
+
+console.log(info)
