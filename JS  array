@@ -1,0 +1,13 @@
+  <script>
+     var name=["gopi","hari",23,34.56,true,
+"gopi","hari",23,34.56,true,
+"gopi","hari",23,34.56,true,
+"gopi","hari",23,34.56,true,
+"gopi","hari",23,34.56,true,
+"gopi","hari",23,34.56,true
+,"gopi","hari",23,34.56,true,
+"gopi","hari",23,34.56,true,
+"gopi","hari",23,34.56,true];
+document.write(name)
+
+            </script>
