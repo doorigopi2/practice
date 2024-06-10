@@ -1,0 +1,6 @@
+ <script>
+        var b = "krishna";
+        var b = 100;
+            var b =500;
+            document.write(b+b+b);
+    </script>
