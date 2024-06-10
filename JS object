@@ -1,0 +1,7 @@
+var object={
+    name:"krishna",
+    age:23,
+    phno:8790462097,
+    add:"ap"
+};
+console.log(object)
