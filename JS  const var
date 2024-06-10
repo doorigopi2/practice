@@ -1,0 +1,11 @@
+ <script>
+        const a = 10;
+        const b = 30;
+        const c = 40;
+        const d = 50;
+        document.write(a+b+c+d)
+        document.write(b)
+        document.write(c)
+        document.write(d)
+            </script>
+    
