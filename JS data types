@@ -1,0 +1,21 @@
+<script>
+       var z="krishna";
+document.write(z);
+document.write(typeof(z));
+
+var z=100;
+document.write(z);
+document.write(typeof(z));
+
+var y
+document.write(y);
+
+var z=null;
+document.write(z);
+
+var z=true;
+document.write(z);
+document.write(typeof(z));
+
+            </script>
+    
