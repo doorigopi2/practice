@@ -1,0 +1,12 @@
+  <script>
+        var a ='web development';
+        var b = 100;
+        var c = 30.50;
+        var d = true;
+       document.write(a);
+       document.write(b);
+       document.write(c);
+       document.write(d);
+       document.write(e);
+    
+    </script>
