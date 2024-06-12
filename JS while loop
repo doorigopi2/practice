@@ -1,0 +1,7 @@
+var z=1;
+let y=1;
+while(z<100,y="gopi"){
+    console.log(z);
+    console.log(y)
+  z+=1
+}
