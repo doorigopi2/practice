@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{padding:0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        body{
+
+           
+            justify-content: center;
+            align-items: center;
+         
+            background-color: rgb(169, 20, 20);
+        }
+     h2{ color: aquamarine;
+         position: absolute;
+        top: 25px;
+        left: 100px;}
+        
+
+
+        .navbar{
+          
+            height: 100px;  
+            list-style: none;  
+            
+              
+        background-color: black;
+        }
+        .navbar .listitems li{
+           
+            display: flex;
+           float: left;
+          position: relative;
+          left: 700px;
+           z-index: 20;
+           text-decoration: none;
+           padding: 30px;
+        }
+        li a{
+        text-decoration: none;
+        color: aliceblue;}
+    
+        .slides{
+            position: absolute;
+            top: 150px;
+            left: 100px;
+     
+
+            height: 400px;
+            width: 1000px;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+           
+        
+
+        }
+        footer{
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 70px;
+            position: absolute;
+            top: 600px;
+            height: 200px;
+            width: 100%;
+           
+        }
+         
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nevitems">
+                <h2>KRISHNA'S</h2>
+                <div class="listitems">
+                    <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">COURSES</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul></div>
+            </div>
+        </nav>
+    </header>
+    <section>
+    <div class="slides">
+        <img src="./1.jpeg" alt="" class="img">
+
+    </div>
+    <script>
+    let imgesEl=document.querySelector("img");
+    imeges=["./2.jpeg","./3.png","./4.jpeg"];
+           let i=0;
+           setInterval(
+            ()=>{
+
+                imgesEl.src=imeges[i];
+                i++;
+                if(i==imeges.length){i=0}
+            },2000
+
+           )
+
+    </script>
+
+</section>
+
+<footer><h3>KRISHNA'S</h3>
+    <p>888 Griffiths Way, Mainland ML 12345
+
+        (987) 654-3210
+        
+        info@yoursite.com</p>
+    <p>Copy rights 2022 ABC Agency. All Rights Reserved.</p>
+  </footer>
+  
+</body>
+</html>
