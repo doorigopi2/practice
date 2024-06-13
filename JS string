@@ -1,0 +1,30 @@
+
+
+//by using constructor(new) keyword
+const bike=new String("hero");
+console.log(bike)
+//literals
+const str="krishna";
+console.log(str);
+//empty string
+const str1=""
+console.log(str1)
+//multiline String --> backquote we should use
+let str3=`this is
+power star
+pawen kalyan`;
+console.log(str3);
+//operations on js strings
+
+//finding the length
+ let two="kiran       kumar";
+ let one=two.length;
+ console.log(one);
+ 
+ //string concentation-->
+ let result=str+str1;
+ console.log(result);
+ //breaking long strings(not supported by all browsers)
+ let some="WEBWrite and run\ Java code\nline with this user friendly editor.\ It supports input,\libraries and \ penJDK 11 compiler.";
+ console.log(some)
+ 
