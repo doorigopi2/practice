@@ -1,0 +1,24 @@
+let names=new Array("gopi","hari","sure","mahe","siva");
+console.log(names);
+let arra=new Array(4);
+arra[0]=(1);
+arra[1]=(2);
+arra[2]=(3);
+arra[3]=(4);
+arra[4]=(5);
+console.log(arra);
+//assign the arry
+let names1=new Array("gopi","hari","sure","mahe","siva");
+console.log(names);
+let firstitem=names[0];
+console.log('firstitem',firstitem);
+let lastname=names[names.length-1];
+console.log('kala',lastname);
+//modify the array
+names[3]='sahoo';
+console.log(names);
+//adding the elements
+names.push('raja');
+console.log(names);
+names.unshift('mahe');
+console.log(names)
