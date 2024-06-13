@@ -1,0 +1,23 @@
+
+//REMOVE of the elememt(pop,shift,slice}
+let last= names.pop();
+console.log(names);
+let first=names.shift();
+console.log(names);
+names.splice(2);
+console.log(names);
+let len=names.length;
+console.log(len);
+//iteration through an arra
+let name=["gopi","hari","sure","mahe","siva"];
+for(let i=0; i<=name.length-1;i++){
+console.log(name[i])};
+//array concentation --> combing arrays
+let bikes=["hero","yamaha","royal","suzike"];
+let bikes1=bikes.concat(name);
+console.log(bikes1);
+//conversion of an array to String
+console.log(names.toString());
+
+
+
