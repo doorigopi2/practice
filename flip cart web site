@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipcart</title>
+    
+    <style>*{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    
+     
+    .navbar{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        height: 100px;
+        text-decoration: none;
+        background-color:rgba(255, 255, 255, 0.607);
+        border-radius: 7px;
+        z-index: 80;
+       
+        
+       
+        justify-content: space-evenly;
+    }
+    .navbar.navitem{
+        display: flex;
+        padding: 20px;
+        
+    }
+    .search input{
+        height: 40px;
+        width: 380px;
+        background-color: rgba(81, 213, 213, 0.24);
+        border-radius: 5px;
+        border: none;
+    }
+    .profile a button{
+        height: 60px;
+        width: 121px;
+        position: relative;
+        text-align: start;
+        display: block;   
+        border: none;
+        background-color: white;
+        
+    
+    }
+    .profile a button p{
+       
+        text-decoration: none;
+        position: absolute;
+        left: 30px;
+        bottom: 20px;
+        font-size: 18px;
+        font-weight: 1px;
+    }
+    .profile li a{
+        text-decoration: none;
+        
+    }
+    
+    .dropdown{
+        text-decoration: none;
+        position: absolute;
+        top: 80px;
+        list-style: none;
+        z-index: 10;
+      background-color: rgb(225, 242, 242);
+        display: none;
+        cursor: pointer;
+        border: solid 2px black;
+        line-height: 40px;
+        border-radius: 6px;
+       
+       
+    }
+    .dropdown ul {
+        list-style: none;
+        font-size: 17px;
+        text-align: start;
+      
+    
+    }
+    .profile:hover .dropdown {
+        display: block;
+        cursor: pointer;
+    }
+    .dropdown:hover{
+        color: brown;
+    
+    
+        
+    }
+    .cart a button{
+        height: 60px;
+        width: 121px;
+        position: relative;
+        text-align: start;
+         
+        border: none;
+        background-color: white;
+        
+    
+    }
+    .cart a button p{
+       
+        text-decoration: none;
+        position: absolute;
+        left: 30px;
+        bottom: 20px;
+        font-size: 18px;
+        font-weight: 1px;
+    }
+    
+    .become a button{
+        height: 60px;
+        width: 191px;
+        position: relative;
+        text-align: start;
+        border: none;
+        background-color: white;
+        
+    
+    }
+    .become a button p{
+       
+        text-decoration: none;
+        position: absolute;
+        left: 40px;
+        bottom: 20px;
+        font-size: 18px;
+        font-weight: 1px;
+    }
+    
+    
+    
+    
+    .container1{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.027);
+        position:relative;
+        top: 20px;
+    
+    }
+    .container1 a button {
+    border: none;
+    background-color: white;
+    }
+    
+    .container2{
+        position: relative;
+        top: 80px;
+        left: 20px;
+    
+    }
+    
+    
+    
+    .slider{
+        overflow: hidden;
+    
+    }
+    
+    
+    .slider figure{
+        
+        
+        position: relative;
+        width: 490%;
+        position: 0%;
+        left: 0%;
+        animation: 20s slider infinite;
+    
+    
+    
+    }
+    .slider figure img{
+    
+        float: left;
+        width: 20%;
+    
+    
+    }
+    
+    @keyframes slider{
+        0%{
+            left: 0%;
+        
+        }
+        20%{
+            left: 0%;
+        
+        }
+        25%{
+            left: -100%;
+        
+        }
+        45%{
+            left: -100%;
+        
+        }
+        50%{
+            left: -200%;
+        
+        }
+        70%{
+            left: -200%;
+        
+        }
+        75%{
+            left:-300%;
+        
+        }
+        95%{
+            left: -300%;
+        
+        }
+        100%{
+            left: -300%;
+        
+        }
+    }
+    
+    .container3{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgba(170, 21, 21, 0.027);
+        position:relative;
+        top: 20px;
+    
+    }
+    .container3 a button {
+    border: none;
+    background-color: white;
+    border: 2px solid cadetblue;
+    padding: 20px;
+    border-radius: 8px;
+    }
+    .footer{
+        background-color: black;
+        display: flex;
+        height: 200px;
+        position: relative;
+        top: 160px;
+        border-radius: 7px;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .footer h4{color: rgba(197, 204, 139, 0.877);}
+    ul{
+        list-style: none;
+    }
+    .footer .footerheaders  {
+        justify-content: center;
+        padding: 23PX;
+    }
+    .footerheaders li a{
+        text-decoration: none;
+        color: white;
+        line-height: 30px;
+        list-style: none;
+       
+    
+    }
+    .copy{
+        color: white;
+        position: absolute;
+        top: 150px;
+    }</style>
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-items">
+    <div class="img"></div><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg"alt="logo">
+        </div>
+        <div class="search">
+            <input type="text" id="text" placeholder="Search For Product,Brands And More">
+        </div>
+        <div class="profile"><a href="#"><button>
+            <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-52e0dc.svg" alt="logo" height="25px"><p>Login</p></button></a>
+            <div class="dropdown">
+                <ul>
+                    <li><a href="#">my profile</a></li>
+                    <li><a href="#">flipcart plue zone</a></li>
+                    <li><a href="#">orders</a></li>
+                    <li><a href="#">wishlist</a></li>
+                    <li><a href="#">rewards</a></li>
+
+                </ul>
+            </div>
+            </div>
+            <div class="cart">
+                <a href="#"><button><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg" alt="cart"><p>Cart</p></button></a>
+
+            </div>
+            <div class="become">
+                <a href="#"><button><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg" alt="logo"><p>Become a seller</p></button></a>
+
+            </div>
+        </div>
+        <div class="options">
+            <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg" alt="logo">
+           
+
+
+        </div>
+        
+
+
+
+</div>
+</nav>
+<section class="sectionbar">
+    <div class="container1">
+        <div class="topoffers">
+            <a href="#"><button><img src="https://rukminim2.flixcart.com/fk-p-flap/96/96/image/698ba0cebe456aaf.jpg?q=100" alt="logo"><p>Top offers</p></button></a>
+
+        </div>
+        <div class="mobiles">
+            <a href="#"><button><img src="https://rukminim2.flixcart.com/fk-p-flap/96/96/image/44e10b16e649b691.jpg?q=100" alt="logo"><p>Mobiles</p></button></a>
+
+        </div>
+        <div class="tv">
+            <a href="#"><button><img src="https://rukminim2.flixcart.com/fk-p-flap/96/96/image/717b5077a5e25324.jpg?q=100" alt="logo"><p>Tv's</p></button></a>
+
+        </div>
+        <div class="elotronics">
+            <a href="#"><button><img src="https://rukminim2.flixcart.com/fk-p-flap/96/96/image/4da1d0d19350cc84.jpg?q=100" alt="logo"><p>Eloctronics</p></button></a>
+
+        </div>
+        <div class="fashion">
+            <a href="#"><button><img src="https://rukminim2.flixcart.com/fk-p-flap/96/96/image/9d4e9c605fc1d2d3.jpg?q=100" alt="logo"><p>Fashions</p></button></a>
+
+        </div>
+        <div class="bueaty">
+            <a href="#"><button><img src="https://rukminim2.flixcart.com/fk-p-flap/96/96/image/a5e656672d0548dd.jpg?q=100" alt="logo"><p>Bueaty</p></button></a>
+
+        </div>
+        <div class="furniture">
+            <a href="#"><button><img src="https://rukminim2.flixcart.com/fk-p-flap/96/96/image/7a5e96c10ada8a56.jpg?q=100" alt="logo"><p>Furniture</p></button></a>
+        </div>
+        <div class="grocery">
+            <a href="#"><button><img src="https://rukminim2.flixcart.com/fk-p-flap/96/96/image/25f400c36bc3487d.jpg?q=100" alt="logo"><p>Grocery</p></button></a>
+
+        </div>
+    </div>
+
+    <div class="container2">
+     
+        <div class="slider">
+            <figure>
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/e7230486b354e4d7.jpg?q=20" alt="" >
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/344c83515668f2e8.jpg?q=20" alt=""  >
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/6b34439e2718b4db.jpeg?q=20" alt="" >
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/ec5339b6299d2196.jpeg?q=20" alt="" >
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/a4967bcc3d7e2c25.jpeg?q=20" alt="">
+    
+    
+    
+            </figure>
+        </div>
+      
+        <div class="container3">
+            <div class="moto">
+                <a href="#"><button><img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/n/m/f/g34-5g-pb1v0002in-motorola-original-imagwu4rayqhgfjh.jpeg?q=70" alt="logo" height="180px"><p>Moto G34 5G</p><h4>Just 9,999</h4></button></a>
+            </div>
+
+            <div class="sumsung">
+                <a href="#"><button><img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/m/c/s/-original-imagztn7sycc4h84.jpeg?q=70" alt="logo"  height="180px"><p>Sumsung S23 FE</p><h4>From 33,999</h4></button></a>
+    
+            </div>
+            <div class="realme">
+                <a href="#"><button><img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/k/l/l/-original-imagtc5fz9spysyk.jpeg?q=70" alt="logo"  height="180px"><p>Realme 12pro 5G </p><h4>From 23,999</h4></button></a>
+    
+            </div>
+            <div class="iphone">
+                <a href="#"><button><img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/m/p/y/12-pro-5g-rmx3842-realme-original-imagxgnhafyjz8rb.jpeg?q=70" alt="logo"  height="180px"><p>Iphone 15</p><h4>From 64,999</h4></button></a>
+    
+            </div>
+            <div class="motorole">
+                <a href="#"><button><img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/d/h/q/m6-pro-5g-mzb0eprin-poco-original-imags3e7vewsafst.jpeg?q=70" alt="logo"  height="180px"><p>Motorole edge 5G pro</p><h4>From 28,999</h4></button></a>
+    
+            </div>
+            
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer">
+        <div class="footerheaders">
+            <h4>ABOUT</h4>
+            <ul>
+            <li><a href="#">contact Us</a></li>
+            <li><a href="#">about Us</a></li>
+            <li><a href="#">careers</a></li>
+            <li><a href="#">flipcart store</a></li>
+            <li><a href="#">press</a></li>
+            </ul>
+        </div>
+        <div class="footerheaders">
+            <h4>GROUP OF COMPANIES</h4>
+            <ul>
+            <li><a href="#">myntra</a></li>
+            <li><a href="#">cleartrip</a></li>
+            <li><a href="#">shopsy</a></li>
+
+            </ul>
+        </div>
+        <div class="footerheaders">
+            <h4>HELP</h4>
+            <ul>
+            <li><a href="#">payments</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">cancelltion&Return</a></li>
+            <li><a href="#">FAQ</a></li>
+          
+            </ul>
+        </div>
+        <div class="copy">
+            <img src="https://th.bing.com/th?q=Copyright+Symbol+Copy%2fPaste&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="" height="30px"><p>2007-2024 Flipcart.com</p>
+
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+</footer>
+
+</body>
+</html>
