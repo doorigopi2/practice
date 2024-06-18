@@ -1,0 +1,20 @@
+
+
+let result=num1+num2;
+document.write(result);
+//substring() method
+let num5=num1.substring(23,98);
+console.log(num5);
+//string search in javascript--> indexOf()method
+
+let num6=names.indexOf('gopi');
+console.log(num6);
+
+console.log(names)
+let num7=names.indexOf('kiran');
+console.log(num7);
+//string replace--> replace()method
+
+let str4="web development includes so many topics like \ html, css, javascript, reactjs, mysql, dba";
+
+document.write(str4);
