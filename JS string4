@@ -1,0 +1,32 @@
+//array concentation --> combing arrays
+let courses=new Array("html", "css", "javascript", "react", "DBA");
+let names=["gopi","hari","krishna","mahe"];
+let concantationArr=names.concat(courses);
+document.write(concantationArr);
+//conversion of an array to String
+document.write(names.toString());
+//by using constructor(new) keyword
+let names1=new String('hari','gopi');
+document.write(names1);
+//literals
+let nam='this is hari';
+document.write(nam);
+//empty string
+let num1="";
+document.write(num1);
+//multiline String --> backquote we should use
+let num2=`this 
+is 
+hari`
+document.write(num2);
+//operations on js strings
+
+//finding the length
+
+let num3=`this          is    krishna`;
+let num4=num3.length;
+document.write(num4)
+
+
+
+
