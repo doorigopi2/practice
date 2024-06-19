@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://th.bing.com/th?id=ODL.88854dad47052a4c7a6e9788dd8f7a74&w=197&h=112&c=7&rs=1&qlt=80&o=6&dpr=1.5&pid=RichNav" id="imgli"  alt="lo">
+    <h4 id="some"></h4>
+  
+  
+  
+  <script>
+    document.getElementById("imgli").addEventListener('load',siva)
+    function siva(){
+        document.getElementById("some").innerHTML="gopi"   }
+
+    </script>
+</body>
+</html>
