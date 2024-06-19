@@ -1,0 +1,22 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in page</title>
+</head>
+<body>
+<button id="ab">Login</button>
+    
+        
+        <script>
+          let cd= document.getElementById("ab")
+            cd.addEventListener('click',hello)
+            function hello(){ 
+                document.getElementById("ab").innerHTML="Welcome";
+                document.getElementById("ab").style.color="orange";
+                document.getElementById("ab").style.background="skyblue";
+            }
+</body>
+</html>
+
