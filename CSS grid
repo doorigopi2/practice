@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="grid" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 60%;
+            display: grid;
+            grid-template-areas: 
+            "img1 img1 img2"
+            "img1 img1 img3"
+            "img4 img5 img6";
+        }
+        .l1{
+            grid-area:img1;
+            height: 100%;
+        }
+        .l2{
+            grid-area: img2;
+            height: 100%;
+        }
+        .l3{
+            grid-area: img3;
+            height: 100%;
+        }
+        .l4{
+            grid-area: img4;
+            height: 100%;
+        }
+      
+        .l5{
+            grid-area: img5;
+            height: 100%;
+        }
+      
+        .l6{
+            grid-area: img6;
+            height: 100%;
+        }
+      
+        img{
+            width: 100%;
+            border: 4PX solid white;
+        }
+      
+
+    </style>
+</head>
+<body>
+   <div class="container">
+    <p class="nature">Nature is generally pleasing to be in the presence of because it is an entirely different world devoid of stress and worries of daily life.</p>
+
+    <img src="https://wallpaperset.com/w/full/c/9/0/522708.jpg" alt="" class="l1"> <p class="nature">Nature is generally pleasing to be in the presence of because it is an entirely different world devoid of stress and worries of daily life.</p>
+    <img src="https://live.staticflickr.com/5593/14728067897_a4ce8693db.jpg" alt="" class="l2">
+    <img src="https://th.bing.com/th/id/OIP.PS0NTTHOUtsfHeJ3FgyiRwHaEI?pid=ImgDet&w=181&h=101&c=7&dpr=1.5" alt="" class="l3">
+    <img src="https://th.bing.com/th/id/OIP.m4FmOjk0Bx-N4JaBzsBoTgHaEP?w=320&h=184&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="" class="l4">
+    <img src="https://th.bing.com/th/id/R.5c1cb9376b3bee7effa4286fbc6ef4ba?rik=KimYjCSDB1u4jg&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2016%2f03%2f29%2fawesome-beautiful-nature-wallpaper_042319501_304.jpg&ehk=8bGUOKnA5IrfEG%2foi23atcc7xm8BmgDPkLvJhn94JwA%3d&risl=&pid=ImgRaw&r=0" alt="" class="l5">
+    <img src="https://th.bing.com/th/id/OIP.bPBCgvp9N0SUbVYJnBg2IQHaEo?w=287&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="" class="l6">
+  
+  
+</div>
+  
+</body>
+
+</html>
