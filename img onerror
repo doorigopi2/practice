@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        P{
+            background-color: rgb(189, 63, 63);
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <p dir="rtl">Nature</p>
+    <img src="https://th.bing.com/th/id/OIP.pXmF3n7dseamyEkydwnftQAAAA?pid=ImgDet&w=202&h=303&c=7&dpr=1.5" onerror="this.src='https://th.bing.com/th/id/OIP.kqdUs5UYQhbmogZNxoFkgwHaEK?pid=ImgDet&w=202&h=113&c=7&dpr=1.5'" alt="">
+</body>
+</html>
