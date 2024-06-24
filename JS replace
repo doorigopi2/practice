@@ -1,0 +1,7 @@
+let c=`this is krishna
+this is krishna
+this is krishna
+this is krishna
+this is krishna`;
+//console.log(c.replace('krishna',"hari"))
+console.log(c.replaceAll('krishna',"hari"))
