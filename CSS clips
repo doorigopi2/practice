@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .container img{
+
+        clip-path: polygon(0 0,100% 0,100% 100%,50% 75%,0 100%);
+
+      }
+      .container2 img{
+
+clip-path:circle(100px at 100px 100px) ;
+
+}
+.container3 img{
+
+clip-path: inset(106px) ;
+
+}
+.container4 img{
+
+clip-path: ellipse(90px 40px) ;
+
+}
+
+    </style>
+</head>
+<body><div class="container">
+    <h2> clip-path: polygon</h2>
+    <img src="https://th.bing.com/th/id/OIP.pXmF3n7dseamyEkydwnftQAAAA?pid=ImgDet&w=202&h=303&c=7&dpr=1.5" alt="">
+
+</div>
+
+<div class="container2">
+    <h2>clip-path:circle</h2>
+    <img src="https://th.bing.com/th/id/OIP.pXmF3n7dseamyEkydwnftQAAAA?pid=ImgDet&w=202&h=303&c=7&dpr=1.5" alt="">
+
+</div>
+    
+<div class="container3">
+    <h2>clip-path: inset</h2>
+    <img src="https://th.bing.com/th/id/OIP.pXmF3n7dseamyEkydwnftQAAAA?pid=ImgDet&w=202&h=303&c=7&dpr=1.5" alt="">
+
+</div>
+    
+<div class="container4">
+    <h2>clip-path: ellipse</h2>
+    <img src="https://th.bing.com/th/id/OIP.pXmF3n7dseamyEkydwnftQAAAA?pid=ImgDet&w=202&h=303&c=7&dpr=1.5" alt="">
+
+</div>
+    
+    
+    
+</body>
+</html>
