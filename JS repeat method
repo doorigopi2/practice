@@ -1,0 +1,2 @@
+let p='this is gopi\n";
+console.log(p.repeat(100))
