@@ -1,0 +1,5 @@
+let product={item:"shoop",value:324};
+let details={stock:78};
+Object.assign(product,details,
+{price:343443,offer:30}),
+console.log(product)
