@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getelementbyid</title>
+</head>
+<body>
+    <div class="element">
+        <h1>getelementbyid</h1>
+        <p>this is id</p>
+    </div>
+    <div id="element">
+        <h1>getelementbyid</h1>
+        <p>this is id</p>
+    </div>
+    <div id="select">
+        <h1>getelementbyid</h1>
+        <p>this is id</p>
+    </div>
+    <script>
+        let ab=document.getElementsByClassName("element");
+        let bb=document.getElementById("element");
+        let bc=document.getElementsByTagName("#select");
+        console.log(ab)
+        console.log(bb)
+        console.log(bc)
+    </script>
+</body>
+</html>
